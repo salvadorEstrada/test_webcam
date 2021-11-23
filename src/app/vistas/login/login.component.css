@@ -166,7 +166,6 @@ input.form-control.rounded {
 .btn-normal{
   background-color: maroon; 
   color:white; 
-  font-family: "Font Awesome 5 Free"; 
   outline-style: none;  
   width: 350px; 
   height: 45px;
@@ -190,15 +189,3 @@ input.form-control.rounded {
 .btn-normal:hover{
   background: rgb(175, 12, 12);
 }
-
-
-
-
-
-
-
-
-
-
-
-
