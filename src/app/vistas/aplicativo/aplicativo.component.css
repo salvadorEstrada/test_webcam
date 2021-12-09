@@ -1,0 +1,95 @@
+.nombrepos{
+  margin-top: -4%; 
+  margin-left: 10%; 
+  color:rgb(141, 6, 6) 
+} 
+.p{ 
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;;
+}  
+
+.card-signin {
+  border: 2%;  
+  background-color: white; 
+  width: 25rem; 
+  margin-left: 42px;
+  border-radius: 2rem;
+  
+} 
+
+button[type=button], button[type=submit], button[type=reset]  {
+  border: none;
+  outline: none;
+  color: white;
+  margin-top: 1%;
+  /*padding: 15px 2px;*/
+  text-align: center; 
+  margin-left: 180px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: rgba(0,0,0, 0.24) 0px 3px 8px;
+  font-family: "Font Awesome 5 Free";
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  width: 150px;
+  height: 35px; 
+  border-radius: 5rem;  
+  font-weight: bold;
+  font-style: normal;
+}   
+
+.btn-enviadoc button{
+  background-color: rgb(5, 4, 97); 
+  
+} 
+
+.btn-enviadoc button[type=submit]:hover { 
+  cursor: pointer; 
+  background-color: rgb(7, 10, 201);   
+} 
+
+.btn-enviadoc{
+  margin-top: 300px;
+}
+
+
+
+.btn-verdoc button{
+  background-color: rgb(121, 3, 72); 
+  
+} 
+
+.btn-verdoc button[type=submit]:hover { 
+  cursor: pointer; 
+  background-color: rgb(170, 5, 101);   
+}  
+
+.btn-verdoc{
+  margin-top: -70px;
+} 
+
+
+.btn-oficinas button{
+  background-color: rgb(2, 1, 48);  
+  
+} 
+
+.btn-oficinas button[type=submit]:hover { 
+  cursor: pointer; 
+  background-color: rgb(3, 1, 94);   
+}  
+
+.btn-oficinas{
+  margin-top: -70px;
+}
+
+
+
+
+
+
+
+
+  
+ 

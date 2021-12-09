@@ -10,12 +10,16 @@ import { Observable } from 'rxjs';
 })
 export class ServicioService {
 
-   url:string="https://6w33tkx4f9.execute-api.us-east-1.amazonaws.com/";
+   url:string="https://6w33tkx4f9.execute-api.us-east-1.amazonaws.com";
+  //url:string="http://localhost:8080/usuario/login"
   constructor(private http: HttpClient) { } 
   
   //Lo que se va enviar por el parametro formulario debe ser un  usuario y password(LoginI)
-  loginByEmail(form:LoginI):Observable<ResponseI>{
-    let direccion = this.url+"GET/RS_Usuarios";
-    return this.http.post<ResponseI>(direccion,form);
+  loginByEmail(form:LoginI):Observable<ResponseI>{ 
+    let direccion = `${this.url}/RS_Usuarios?idUsuario=${form.idUsuario}&clave=${form.clave}`;
+    //console.log(direccion);
+    return this.http.get<ResponseI>(direccion);
   }
+
+
 }

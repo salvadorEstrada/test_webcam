@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'; 
+import { ResponseI } from 'src/app/modelo/response.interface';
+import { ServicioService } from 'src/app/servicios/servicio/servicio.service';
 
 @Component({
   selector: 'app-aplicativo',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./aplicativo.component.css']
 })
 export class AplicativoComponent implements OnInit {
+   
+  userDisplayName='';
 
-  constructor() { }
+  ngOnInit() { 
+    this.userDisplayName=sessionStorage.getItem('nombre');
+  } 
 
-  ngOnInit(): void {
-  }
-
+ 
 }

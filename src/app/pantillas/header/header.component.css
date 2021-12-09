@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .respmenu ul {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 2px solid #FFFFFF;
+    right:85%;
+    height: 160px;
+    background: #dcdcdc;
+    
+    font-variant: small-caps;
+    text-shadow: 1px 1px black;
+    margin-top: 45px;
+    position: fixed; 
+    left: 0 ;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+      
+  }
+  
+  .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 10px;
+    width: 48px;
+    height: 48px;
+    right: 20px;
+  }
+  
+  .respmenu .fa-bars:hover {
+    font-size: 48px;
+    pointer-events: none; 
+    opacity: 0.9; 
+    transition-delay: 0s; 
+    background-color: maroon; 
+    color: white;
+  }  
+
+  .respmenu input[type="checkbox"] {
+    opacity: 0;
+  }
+  
+  .respmenu  {
+    position: relative;
+    background: transparent;
+    height: 85px; 
+    
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .respmenu nav {
+    display: none;
+  }
+  
+  .respmenu input:checked ~ nav {
+    display: block;
+  }
+  
+  /*.respmenu input:checked ~ .fa-bars {
+    display: none;
+  }*/
+  
+  .respmenu input:checked ~ .fa-times {
+    display: none;
+  }
+  
+  .respmenu input:not(:checked) ~ .fa-times {
+    display: none;
+  } 
+
+  button{ 
+    box-shadow: 0 0.5rem 1rem 0 rgba(1, 0, 0, 0); 
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    color:maroon;
+    border-radius: 70px;
+    cursor: pointer;
+    background: rgb(241, 240, 240); 
+    border: none;  
+    position: relative;
+    top:100px; 
+    right: 0; 
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }  
+
+  .coloseSession{
+      margin-right: 900px;
+  } 
+
+  .navbar-new a{
+    color: #FFFFFF; 
+    
+  }
+
+ 

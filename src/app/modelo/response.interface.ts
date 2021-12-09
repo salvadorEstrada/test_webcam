@@ -1,4 +1,5 @@
-export interface ResponseI{
-    responses:string;
+export interface ResponseI{ 
+      acceso:boolean; 
+      nombre:string;
 
 }
